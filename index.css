@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+
+    & h1{
+        font-size: 60px;
+    }
+
+    & h2{
+        font-size: 40px;
+    }
+
+    & h3{
+        font-size: 30px;
+    }
+
+    & h4{
+        font-size: 20px;
+    }
+
+    & p{
+        font-size: 15px;
+    }
+}
+
+header{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/fotos/headerank1mscurt.png);
+    background-size: cover;
+    background-position:center;
+    color: white;
+
+    
+    & article{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        flex-direction: column;
+        
+
+        &:nth-of-type(1){
+            height: 60%;
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            align-items: start;
+            flex-direction: row;
+            
+            & p{
+                height: 25%;
+                width:20%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: row;
+
+                & span{
+                    height: 100%;
+                    width: 20%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+
+                    &:nth-of-type(1){
+                        background-image: url(/fotos/xxss/instagram_icon.png);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    
+                    &:nth-of-type(2){
+                        background-image: url(/fotos/xxss/youtube_icon.png);
+                        background-size: cover;
+                        background-position: center;
+                    }
+
+                    &:nth-of-type(3){
+                        background-image: url(/fotos/xxss/bandcamp_icon.png);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+            }
+        }
+        &:nth-of-type(2){
+            height: 30%;
+            width: 100%;
+
+            & div{
+                height: 70%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                border: solid 1px black;
+            }
+            
+            & nav{
+                height: 30%;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: space;
+                flex-direction: row;
+                
+            }
+
+            & h1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                text-shadow: 0px 2px 18px rgb(68, 28, 28);
+            }
+        }
+    }
+}
+
+
+#concerts{
+    height: 550px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-image: url(/fotos/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#concertspropers{
+    
+            height: 38%;
+            width: 90%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: start;
+            flex-direction: row;
+            border:rgb(33, 61, 177) solid 1px;
+
+            & article{
+                height: 100%;
+                width: 20%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                border:rgb(33, 177, 100) solid 1px;
+
+                & p{
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    border:rgb(177, 103, 33) solid 1px;
+
+                    &:nth-of-type(1){
+                    width:60%;
+                    }
+                    &:nth-of-type(2){
+                        width:40%;
+                    }
+                        
+                }
+
+                
+                
+            }
+        
+        
+
+    }
+    #concertspassats{
+        
+            height: 38%;
+            width: 90%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: start;
+            flex-direction: row;
+            border:rgb(33, 61, 177) solid 1px;
+
+            & article{
+                height: 100%;
+                width: 24%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                border:rgb(33, 177, 100) solid 1px;
+                
+
+                & p{
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    border:rgb(177, 103, 33) solid 1px;
+
+                    &:nth-of-type(1){
+                    width:60%;
+                    }
+                    &:nth-of-type(2){
+                        width:40%;
+                    }
+                        
+                }
+                
+                
+            }
+    }
+
+#concertspassats article:nth-of-type(1) p:nth-of-type(1){
+    background-image: url(/fotos/cartells/ank1ms_clot.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#concertspassats article:nth-of-type(1) p:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#concertspassats article:nth-of-type(2) p:nth-of-type(1){
+    background-image: url(/fotos/cartells/ank1ms_fontana.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#concertspassats article:nth-of-type(3) p:nth-of-type(1){
+    background-image: url(/fotos/cartells/guineueta_very_low_res.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#concertspassats article:nth-of-type(4) p:nth-of-type(1){
+    background-image: url(/fotos/cartells/bascula_lowres.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+#intro{
+    height: 400px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(to bottom,rgb(68, 28, 28), rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
+    
+
+    & div{
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        flex-direction: column;
+
+        &:nth-of-type(1){
+            height: 90%;
+            width: 60%;
+
+            & iframe{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        &:nth-of-type(2){
+            height: 90%;
+            width: 30%;
+            text-align: justify;
+        }
+    }
+}
+
+#quisom{
+    height: 600px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-image: url(/fotos/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    & h2{
+        height: 15%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+
+    & div{
+        height: 35%;
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+        flex-direction: row;
+
+    }
+
+    & article{
+        height: 100%;
+        width:100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    
+
+        p{
+            height: 100%;
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            &:nth-of-type(1){
+                width:40%;
+                height: 100%;
+
+            }
+
+            
+            &:nth-of-type(2){
+                width:60%;
+                height: 100%;
+
+                & a{
+                    &:nth-of-type(1){
+                        width: 100%;
+                        height: 20%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        font-size: 25px;
+                        font-weight: bold;
+                    }
+                    &:nth-of-type(2){
+                        width: 100%;
+                        height: 80%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+
+                    }
+                }
+            }
+        }
+        
+        #alex{
+            background-image: url(/fotos/alexank1ms.JPG);
+            background-size: cover;
+            background-position: center;
+        }
+        
+                
+        #fiona{
+            background-image: url(/fotos/fionaank1ms.JPG);
+            background-size: cover;
+            background-position: center;
+        }
+        #pau{
+            background-image: url(/fotos/pauank1ms.JPG);
+            background-size: cover;
+            background-position: center;
+        }
+        #mariona{
+            background-image: url(/fotos/marionaank1ms.JPG);
+            background-size: cover;
+            background-position: center;
+        }
+
+        
+    }
+
+    
+}
+
+#ep{
+    height: 400px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-image: url(/fotos/portadaep.png);
+    background-size: cover;
+    background-position: center;
+
+    &h2{
+        height: 15%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    & div{
+        height: 75%;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        border: solid 5px rgb(9, 29, 255);
+
+        & article{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+           &:nth-of-type(1){
+               width: 40%;
+               height: 100%;
+               border: solid 5px rgb(62, 199, 80);
+           }
+           &:nth-of-type(2){
+               width: 50%;
+               height: 100%;
+               border: solid 5px rgb(0, 0, 0);
+           } 
+
+        }
+
+        & p{
+            height: 31%;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            border:rgb(33, 177, 170) solid 2px;
+        }
+
+        & a{
+            height: 90%;
+            width: 45%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+            background-color: rgb(255, 255, 255);
+        }
+
+        & span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+
+            &:nth-of-type(1){
+                height: 80%;
+                width: 35%;
+                background-image: url(/fotos/portadaep.png);
+                background-size: cover;
+                background-position: center;
+            }
+            &:nth-of-type(2){
+                height: 80%;
+                width: 60%;
+                background-color: rgb(33, 177, 170);
+            }
+        }
+
+    }
+}
+
+
+
+#cartells{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(63, 81, 50));
+    
+    & div{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    & p{
+        height: 90%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: solid 1px black;
+
+        & article{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: solid 1px rgb(33, 61, 177);
+        }
+        
+        /* Primer article de cada p - CORREGIT */
+        &:nth-child(1) article:first-child{
+            background-image: url(/fotos/cartells/ank1ms_clot.jpeg);
+            background-size: cover;
+            background-position: center;
+        }
+        &:nth-child(2) article:first-child{
+            background-image: url(foto2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        &:nth-child(3) article:first-child{
+            background-image: url(foto3.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        &:nth-child(4) article:first-child{
+            background-image: url(foto4.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 28, 28);
+}
